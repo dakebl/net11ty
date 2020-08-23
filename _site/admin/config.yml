@@ -8,3 +8,8 @@ collections:
   - name: "sections"
     label: "Section"
     folder: "sections"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
